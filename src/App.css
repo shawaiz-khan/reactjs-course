@@ -1,0 +1,74 @@
+/* App Component  */
+
+.app-main {
+    width: 93vw;
+    padding: 0.5rem 3rem;
+}
+
+/* Counter Component */
+
+.main {
+    padding: 2rem;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counting {
+    color: red;
+}
+
+.btns-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.btn {
+    background-color: #4a4a4a;
+    border: none;
+    width: 2.5rem;
+    height: 1.5rem;
+    padding: 0.2rem 0.5rem;
+    font-weight: bolder;
+    color: #f2f2f2;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* NavBar Component  */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.nav-list,
+.nav-list li {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.nav-list-item {
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-list-item:hover {
+    color: purple;
+}
+
+.nav-list-item:not(:hover) {
+    color: black;
+}
