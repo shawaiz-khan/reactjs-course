@@ -7,10 +7,7 @@ const products = [
         category: "Electronics",
         stock: 50,
         rating: 4.5,
-        images: [
-            "https://example.com/images/headphones1.jpg",
-            "https://example.com/images/headphones2.jpg"
-        ],
+        images: "https://example.com/images/headphones2.jpg",
         tags: ["wireless", "audio", "headphones"],
         reviews: [
             { user: "Alice", comment: "Great sound quality!", rating: 5 },
@@ -25,10 +22,7 @@ const products = [
         category: "Electronics",
         stock: 30,
         rating: 4.8,
-        images: [
-            "https://example.com/images/smartphone1.jpg",
-            "https://example.com/images/smartphone2.jpg"
-        ],
+        images: "https://example.com/images/smartphone2.jpg",
         tags: ["smartphone", "mobile", "tech"],
         reviews: [
             { user: "Charlie", comment: "Best phone I've ever owned!", rating: 5 },
@@ -43,10 +37,7 @@ const products = [
         category: "Sports",
         stock: 100,
         rating: 4.2,
-        images: [
-            "https://example.com/images/shoes1.jpg",
-            "https://example.com/images/shoes2.jpg"
-        ],
+        images: "https://example.com/images/shoes2.jpg",
         tags: ["shoes", "running", "sports"],
         reviews: [
             { user: "Eve", comment: "Very comfortable for daily runs.", rating: 4 },
@@ -61,10 +52,7 @@ const products = [
         category: "Furniture",
         stock: 20,
         rating: 4.3,
-        images: [
-            "https://example.com/images/chair1.jpg",
-            "https://example.com/images/chair2.jpg"
-        ],
+        images: "https://example.com/images/chair2.jpg",
         tags: ["office", "furniture", "chair"],
         reviews: [
             { user: "Grace", comment: "Really helps with my back pain!", rating: 5 },
@@ -79,10 +67,7 @@ const products = [
         category: "Kitchen",
         stock: 40,
         rating: 4.7,
-        images: [
-            "https://example.com/images/coffee1.jpg",
-            "https://example.com/images/coffee2.jpg"
-        ],
+        images: "https://example.com/images/coffee2.jpg",
         tags: ["coffee", "kitchen", "appliance"],
         reviews: [
             { user: "Ivy", comment: "Makes the perfect cup every time!", rating: 5 },
