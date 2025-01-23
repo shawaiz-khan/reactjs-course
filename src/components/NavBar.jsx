@@ -8,13 +8,13 @@ export default function NavBar() {
         "Contact",
     ]
     return (
-        <div className='nav-container'>
-            <h1 className='nav-logo'>My First Site</h1>
-            <ul className='nav-list'>
+        <div className='flex bg-neutral-100 justify-between items-center px-5 py-4'>
+            <h1 className='font-bold text-2xl'>My First Site</h1>
+            <ul className='flex gap-4'>
                 {navItems.map((item, index) => (
                     <li
                         key={index}
-                        className='nav-list-item'
+                        className='cursor-pointer hover:text-red-700 transition-all duration-300 ease-in'
                     >
                         {item}
                     </li>
