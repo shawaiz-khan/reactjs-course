@@ -1,12 +1,10 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
-import Products from "./components/Products";
+import Form from "./components/Form";
 
 function App() {
   return (
     <main className="app-main">
-      <NavBar />
-      <Products />
+      <Form />
     </main>
   )
 }
